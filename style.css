@@ -59,7 +59,6 @@ li a {
 }
 
 .main p {
-    font-size: 18px;
     line-height: 2em;
 }
 
@@ -67,6 +66,10 @@ li a {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+}
+
+.main-left h1, p {
+    flex: 1;
 }
 
 .main-left h1 {
@@ -81,7 +84,6 @@ li a {
 .signup, .ctasignup {
     background: #FF8E9C;
     color: white;
-    font-size: 18px;
     font-weight: bold;
     text-align: center;
     width: 120px;
@@ -152,7 +154,6 @@ li a {
 
 .name {
     align-self: flex-end;
-    font-size: 20px;
     font-weight: bold;
 }
 /***************************************/
@@ -172,8 +173,6 @@ li a {
     border-radius: 10px;
     background: #FF8E9C;
     color: white;
-    font-size: 18px;
-
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -183,10 +182,6 @@ li a {
 .line1 {
     font-size: 26px;
     font-weight: bold;
-}
-
-.line2 {
-    font-size: 18px;
 }
 
 .ctatext {
