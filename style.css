@@ -66,6 +66,7 @@ li a {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    flex: 1;
 }
 
 .main-left h1, p {
@@ -77,8 +78,11 @@ li a {
 }
 
 .main img { 
-    width: 500px;
+    width: 100%;
+    object-fit: cover;
+    object-position: bottom;
     border-radius: 5px;
+    flex: 1;
 }
 
 .signup, .ctasignup {
