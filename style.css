@@ -1,0 +1,212 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+/* TOP SECTION of website containing navigation bar, heading, short caption, and picture on right-hand side */
+.intro {
+    width: 100%;
+    background-color: lightcyan;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 80px;
+}
+
+nav {   
+    display:flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 80px;
+}
+
+.burger {
+    width: 150px;
+}
+
+ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 40px;
+}
+
+li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+.main h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    margin-bottom: 0px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 340px;
+    gap: 20px;  
+}
+
+.main p {
+    font-size: 18px;
+    line-height: 2em;
+}
+
+.main-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.main-left h1 {
+    margin-top: 0; /* aligns the heading with the image. Otherwise, the heading appears lower. */
+}
+
+.main img { 
+    width: 500px;
+    border-radius: 5px;
+}
+
+.signup, .ctasignup {
+    background: #FF8E9C;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    width: 120px;
+    height: 40px;  
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+/* END OF TOP SECTION*/
+
+/*********BURGER GALLERY SECTION*********/
+.burgergallery {
+    display: flex;
+    flex-direction: column;   
+    align-items: center;
+    padding: 50px 0;
+}
+
+.burgergallery h2 { 
+    font-size: 32px;
+    font-weight: bolder;
+    margin-top:0;
+}
+
+.imgcontainer {
+    display:flex;
+    gap: 30px;
+}
+
+.text {
+    text-align: center;
+    max-width: 200px;
+}
+
+.burgerpics {
+    width: 200px;
+    height: 200px;
+    object-fit: cover; /*fits image into provided dimensions without scaling or stretching the image, but remaining portions of the image are clipped out. */
+    border: 5px solid #FF8E9C;
+    border-radius: 10px;
+}
+/***************************************/
+
+/*********QUOTE/TESTIMONIAL SECTION*********/
+
+.testimonial {
+    width: 100%;
+    background:rgb(19, 146, 146);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.quotecontainer {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+    justify-content: center;
+}
+
+.quote {
+    color: white;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.name {
+    align-self: flex-end;
+    font-size: 20px;
+    font-weight: bold;
+}
+/***************************************/
+
+/*********CALL TO ACTION SECTION*********/
+
+.calltoaction {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.ctacontainer {
+    margin: 100px 250px;
+    padding: 50px;
+    border-radius: 10px;
+    background: #FF8E9C;
+    color: white;
+    font-size: 18px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex: 1;
+}
+
+.line1 {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.line2 {
+    font-size: 18px;
+}
+
+.ctatext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ctasignup {
+    border: 2px solid white;
+}
+/***************************************/
+
+/*********FOOTER SECTION*********/
+
+footer {
+    width: 100%;
+    background-color: lightcyan;
+    display: flex;
+    padding: 40px 0;   
+    justify-content: center;
+    align-items: center;
+}
